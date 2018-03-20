@@ -1,0 +1,1 @@
+# LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog
