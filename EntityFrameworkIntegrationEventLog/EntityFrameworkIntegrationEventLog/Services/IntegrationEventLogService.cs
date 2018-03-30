@@ -1,8 +1,11 @@
 ﻿namespace LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog.Services
 {
+    using LilaSoft.Patterns.EventBus.EventBus.Events;
     using Microsoft.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore.Diagnostics;
     using System;
     using System.Data.Common;
+    using System.Linq;
     using System.Threading.Tasks;
 
     public class IntegrationEventLogService : IIntegrationEventLogService
