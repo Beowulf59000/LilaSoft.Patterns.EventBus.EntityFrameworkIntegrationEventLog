@@ -1,5 +1,7 @@
 ﻿namespace LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog
 {
+    using LilaSoft.Patterns.EventBus.EventBus.Events;
+    using Newtonsoft.Json;
     using System;
 
     public class IntegrationEventLogEntry

@@ -1,5 +1,6 @@
 ﻿namespace LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog.Utilities
 {
+    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Threading.Tasks;
 

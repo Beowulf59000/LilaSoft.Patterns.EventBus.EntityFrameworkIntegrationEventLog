@@ -1,5 +1,8 @@
 ﻿namespace LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog
 {
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
     public class IntegrationEventLogContext : DbContext
     {
         public IntegrationEventLogContext(DbContextOptions<IntegrationEventLogContext> options) : base(options)
