@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Johnny Behague</Authors>
+    <Company>LilaSoft</Company>
+    <Product>LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog</Product>
+    <Description>Le projet LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog est un fork du projet du repository eShopContainers afin de faciliter mes futurs développements. Comme tous mes forks issus de ce projet, ils sont issus à changement suivant l'évolution de mes besoins.</Description>
+    <RepositoryType>Github</RepositoryType>
+    <PackageProjectUrl>https://github.com/Beowulf59000/LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LilaSoft.Patterns.EventBus.EventBus" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
