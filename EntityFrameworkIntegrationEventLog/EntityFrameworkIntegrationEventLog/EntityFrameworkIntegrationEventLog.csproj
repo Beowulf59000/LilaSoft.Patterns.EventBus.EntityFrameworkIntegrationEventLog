@@ -9,6 +9,7 @@
     <RepositoryType>Github</RepositoryType>
     <PackageProjectUrl>https://github.com/Beowulf59000/LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/Beowulf59000/LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageId>LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
